@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        /* Add some basic styling for the gallery */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Gallery</h2>
+
+    <div class="gallery">
+        <!-- Replace these with the actual paths to your images -->
+        <img src="images/players/IMG-20231120-WA0000.jpg" alt="Image 1">
+        <img src="images/players/IMG-20231120-WA0006.jpg" alt="Image 2">
+        <img src="images/players/IMG-20231120-WA0013.jpg" alt="Image 3"> 
+        <img src="images/players/IMG-20231120-WA0014.jpg" alt="Image 4">
+        <img src="images/players/IMG-20231120-WA0019.jpg" alt="Image 5"> <br>
+        <img src="images/players/1700469980781.jpg" alt="Image 6">
+        <img src="images/players/1700469980789.jpg" alt="Image 7">
+        <img src="images/players/1700469980798.jpg" alt="Image 8">
+        <img src="images/players/1700469980814.jpg" alt="Image 9"> 
+        
+
+
+        <!-- Add more images as needed -->
+        <!-- Add more images as needed -->
+    </div>
+
+</body>
+</html>
